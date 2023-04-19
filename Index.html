@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!--LINK SECTION-->
+
+            <!--CSS Sheet-->
+                <link rel="stylesheet" href="Web.css">
+
+            <!--Font Awesome CSS Sheet-->
+                <link rel="stylesheet" href="https://kit.fontawesome.com/24aca26fc8.css" crossorigin="anonymous">
+
+            <!--Google Fonts-->
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--WEB-CONTENT SECTION-->
+
+            <!--Menu Bar Section-->
+                <div id="menu-div" class="position-fixed width">
+                    <div id="menu-bar" class="black bar width shadow">
+                    </div>
+                </div>
+
+            <!--Slideshow Section-->
+                <div>
+
+                    <!--Slide 1-->
+                        <div class="img-div align-center position-relative white-color">
+                            <img class="width" src="la.jpg">
+
+                            <!--Text Section-->
+                                <div class="position-absolute text-holder width padding-32-0">
+                                    <h3>Los Angeles</h3>
+                                    <p><b>We had the best time playing at Venice Beach!</b></p>
+                                </div>
+                        </div>
+                     
+                    <!--Slide 2-->
+                        <div class="img-div align-center position-relative white-color">
+                            <img class="width" src="ny.jpg">
+
+                            <!--Text Section-->
+                                <div class="position-absolute text-holder width padding-32-0">
+                                    <h3>New York</h3>
+                                    <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+                                </div>
+                        </div>
+
+                    <!--Slide 3-->
+                        <div class="img-div align-center position-relative white-color">
+                            <img class="width" src="chicago.jpg">
+                            <!--Text Section-->
+                                <div class="position-absolute text-holder width padding-32-0">
+                                    <h3>Chicago</h3>
+                                    <p><b>Thank you, Chicago - A night we won't forget.</b></p>
+                                </div>
+                        </div>
+                </div>
+
+            <!--Band Section-->
+                <div id="band-section" class="align-center common-div">
+                    <!--Text Section-->
+                        <h2 class="letter-spacing">THE BAND</h2>
+                        <p class="opacity-0dot6"><i>We love music</i></p>
+                        <p class="align-justify">
+                            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                    <!--Members Section-->
+                        
+                            <div id="band-members" class="padding-32-0 display-flex">
+
+                                <!--1st Member-->
+                                    <div class="align-center common-width">
+                                        <p>Name</p>
+                                        <img class="common-margin" src="bandmember.jpg">
+                                    </div>
+                        
+                                <!--2nd Member-->
+                                    <div class="align-center common-width">
+                                        <p>Name</p>
+                                        <img class="common-margin" src="bandmember.jpg">
+                                    </div>
+
+                                <!--3rd Member-->
+                                    <div class="align-center common-width">
+                                        <p>Name</p>
+                                        <img class="common-margin" src="bandmember.jpg">
+                                    </div>
+
+                            </div>
+
+                </div>
+
+            <!--Tour Section-->
+
+                <!--Main Section-->
+                    <div class="black width">
+                        <div class="common-div align-center" id="tour-section" >
+
+                            <!--Text Section-->
+                                <h2 class="letter-spacing">TOUR DATES</h2>
+                                <p class="opacity-0dot6"><i>Remember to book your tickets!</i></p>
+                            
+                            <!--Month Section-->
+                                <div class="width white align-left" id="month-section">
+                                    <div class="common-padding">September <span class="month-span white-color red">Sold out</span></div>
+                                    <div class="common-padding">October <span class="month-span white-color red">Sold out</span></div>
+                                    <div class="common-padding">November <span id="circular-span" class="black float-right">3</span></div>
+                                </div>
+
+                            <!--Ticket Section-->
+                                <div id="ticket-section" class="width display-flex">
+
+                                    <!--1st Section-->
+                                        <div class="ticket-divs common-width">
+                                            <img class="width" src="newyork.jpg">
+                                            <div class="white text-div align-left black-color">
+                                                <p><b>New York</b></p>
+                                                <p class="opacity-0dot6">Fri 27 Nov 2016</p>
+                                                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                                <button class="black common-margin common-padding hover" onclick="openHiddenSection()">Buy Tickets</button>
+                                            </div>
+                                        </div>
+
+                                    <!--2nd Section-->
+                                        <div class="ticket-divs common-width">
+                                            <img class="width" src="paris.jpg">
+                                            <div class="white text-div align-left black-color">
+                                                <p><b>Paris</b></p>
+                                                <p class="opacity-0dot6">Sat 28 Nov 20166</p>
+                                                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                                <button class="black common-margin common-padding hover" onclick="openHiddenSection()">Buy Tickets</button>
+                                            </div>
+                                        </div>
+
+                                    <!--3rd Section-->
+                                        <div class="ticket-divs common-width">
+                                            <img class="width" src="sanfran.jpg">
+                                            <div class="white text-div align-left black-color">
+                                                <p><b>San Francisco</b></p>
+                                                <p class="opacity-0dot6">Sun 29 Nov 2016</p>
+                                                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                                <button class="black common-margin common-padding hover" onclick="openHiddenSection()">Buy Tickets</button>
+                                            </div>
+                                        </div>
+
+                                </div>
+                        </div>
+                    </div>
+
+                <!--Hidden Section-->
+                    <div id="hidden-section" class="width height position-fixed top display-none">
+                        <div class="width height border-box" id="background-div">
+                            <div id="form-div" class="position-relative">
+
+                                <!--Header-->
+                                    <div id="form-header" class="align-center white-color green">
+                                        <span class="common-padding hover top position-absolute font-size-24" onclick="closeHiddenSection()">×</span>
+                                        <h2 class="letter-spacing"><i class="fa fa-suitcase"></i>Tickets</h2>
+                                    </div>
+
+                                <!--Form-->
+                                    <div id="form" class="text-div white">
+                                        <p><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</p>
+                                        <input type="text" placeholder="How many?" class="border-box">
+                                        <p><i class="fa fa-user"></i> Send To</p>
+                                        <input type="text" placeholder="Enter email" class="border-box">
+                                        <button class="white-color green margin-16-0 border-box" id="pay-btn">PAY <i class="fa fa-check"></i></button>
+                                        <button class="common-padding white-color red margin-16-0" onclick="closeHiddenSection()">Close <i class="fa fa-remove"></i></button>
+                                        <p class="float-right">Need <a href="#">help?</a></p>
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+            
+            <!--Contact Section-->
+                <div id="contact-section" class="common-div align-center">
+                    <h2 class="letter-spacing">CONTACT</h2>
+                    <p class="opacity-0dot6"><i>Fan? Drop a note!</i></p>
+                    <div id="contact" class="display-flex">
+
+                        <!--Contact Info-->
+                            <div class="align-left width-49" id="contact-info">
+                                <i class="fa fa-map-marker"></i> Chicago, US<br>
+                                <i class="fa fa-phone"></i> Phone: +00 151515<br>
+                                <i class="fa fa-envelope"></i> Email: mail@mail.com
+                            </div>
+
+                        <!--Contact Form-->
+                            <div id="contact-form" class="width-49">
+                                <form>
+                                    <div id="input-holder" class="width display-flex">
+                                        <div class="width-media"><input type="text" placeholder="Name" name="Name" required="" class="width border-box"></div>
+                                        <div class="width-media"><input type="text" placeholder="Email" name="Email" required="" class="width border-box"></div>
+                                    </div>
+                                    <input type="text" placeholder="Message" name="Message" required="" class="display-block width border-box">
+                                    <button class="hover black common-padding float-right margin-16-0" type="submit">SEND</button>
+                                </form>
+                            </div>
+
+                    </div>
+                </div>
+
+            <!--Gap Section-->
+                <div class="width">
+                    <img src="map.jpg" class="width" id="gap-img">
+                </div>
+            
+            <!--Footer Section-->
+                <div id="footer-section" class="width align-center opacity-0dot6 font-size-24 border-box">
+                    <i class="fa fa-facebook-official"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-snapchat"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-linkedin"></i>
+                    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" class="black-color" target="_blank">w3.css</a></p>
+                </div>
+            
+        <!--SCRIPTS SECTION-->
+
+            <!--Font Awesome Script-->
+                <script src="https://kit.fontawesome.com/24aca26fc8.js" crossorigin="anonymous"></script>
+            
+            <!--Web Script-->
+                <script src="Web.js"></script>
+    </body>
+</html>
